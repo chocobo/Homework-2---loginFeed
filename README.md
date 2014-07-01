@@ -1,7 +1,6 @@
 # Homework2 - loginFeed
 
-## Hours:
-6-7
+Hours: 6-7
 
 ## Completed all required tasks
 * Facebook login page
