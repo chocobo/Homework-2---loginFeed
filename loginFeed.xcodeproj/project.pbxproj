@@ -19,6 +19,10 @@
 		8701524B195E573F00897402 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87015233195E573E00897402 /* UIKit.framework */; };
 		87015253195E573F00897402 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87015251195E573F00897402 /* InfoPlist.strings */; };
 		87015255195E573F00897402 /* loginFeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87015254195E573F00897402 /* loginFeedTests.m */; };
+		87015261195E57B900897402 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8701525F195E57B900897402 /* LoginViewController.m */; };
+		87015262195E57B900897402 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87015260195E57B900897402 /* LoginViewController.xib */; };
+		8701526B1960CD0D00897402 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 870152691960CD0D00897402 /* FeedViewController.m */; };
+		8701526C1960CD0D00897402 /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8701526A1960CD0D00897402 /* FeedViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		87015250195E573F00897402 /* loginFeedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "loginFeedTests-Info.plist"; sourceTree = "<group>"; };
 		87015252195E573F00897402 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		87015254195E573F00897402 /* loginFeedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginFeedTests.m; sourceTree = "<group>"; };
+		8701525E195E57B900897402 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8701525F195E57B900897402 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		87015260195E57B900897402 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		870152681960CD0D00897402 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		870152691960CD0D00897402 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		8701526A1960CD0D00897402 /* FeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +121,12 @@
 				8701523F195E573E00897402 /* AppDelegate.m */,
 				87015241195E573E00897402 /* Images.xcassets */,
 				87015236195E573E00897402 /* Supporting Files */,
+				8701525E195E57B900897402 /* LoginViewController.h */,
+				8701525F195E57B900897402 /* LoginViewController.m */,
+				87015260195E57B900897402 /* LoginViewController.xib */,
+				870152681960CD0D00897402 /* FeedViewController.h */,
+				870152691960CD0D00897402 /* FeedViewController.m */,
+				8701526A1960CD0D00897402 /* FeedViewController.xib */,
 			);
 			path = loginFeed;
 			sourceTree = "<group>";
@@ -221,6 +237,8 @@
 			files = (
 				8701523A195E573E00897402 /* InfoPlist.strings in Resources */,
 				87015242195E573E00897402 /* Images.xcassets in Resources */,
+				8701526C1960CD0D00897402 /* FeedViewController.xib in Resources */,
+				87015262195E57B900897402 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +259,8 @@
 			files = (
 				87015240195E573E00897402 /* AppDelegate.m in Sources */,
 				8701523C195E573E00897402 /* main.m in Sources */,
+				8701526B1960CD0D00897402 /* FeedViewController.m in Sources */,
+				87015261195E57B900897402 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
